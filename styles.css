@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+  border: 1px red solid;
+}
+
+.margen {
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cabecera_principal {
+  background-color: #2463a9;
+  text-align: center;
+  width: 1200px;
+  height: 50px;
+  margin: auto;
+  padding: 10px;
+
+}
+
+.cabecera_principal a {
+  margin: 0 15px; 
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  
+}
+
+.cabecera_pequeña {
+  background-color: #1cace7;
+  width: 1200px;
+  height: 10px;
+  margin: auto;
+}
+
+.cabecera_imagen {
+  background-image: url(Archivos/fondo_slide.jpg);
+  width: 1200px;
+  height: 508px;
+  margin: auto;
+}
+
+.cabecera_imagen img {
+  display: block;
+  margin: 50px auto;
+}
+
+.cabecera_imagen p {
+  text-align: center;
+  color: #ececec;
+  font-weight: bold;
+  margin: 0 auto;
+  font-size: 25px;
+  padding: 5px;
+  
+}
+
+.azul {
+  color: #1cace7;
+}
+
+.contenedor_btn {
+  text-align: center;
+  padding: 70px;
+  height: 30px;
+  ;
+}
+
+.btn_naranja {
+  background-color: #ff6500;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 190px;
+  text-align: center;
+  
+}
+
+
+.contenedor_tabla {
+  text-align: center;
+  
+}
+
+#tabla {
+  margin: auto;
+  
+  width: 75%;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: 0 0 0 5px #1cace7;
+  
+  
+}
+
+.cabecera_tabla {
+  font-weight: bold;
+  background-color: #1cace7;
+  padding: 5px 30px;
+  color: white;
+  
+}
+
+
+#tabla td {
+  padding: 10px;
+  border: 3px #ececec solid;
+
+}
+
+.gris {
+  background-color: #ececec;
+}
+
+#blanco {
+  background-color: white;
+}
+
+.precio {
+  font-weight: bold;
+  font-style: italic;
+  color: #2463a9;
+  font-family: Roboto;
+  font-size: 17px; 
+}
+
+.letra_normal {
+  font-style: italic;
+  color: #2463a9;
+  font-size: 17px; 
+  font-family: Roboto;
+}
+
+.letra_grande {
+  font-weight: bold;
+  font-style: italic;
+  color: #2463a9;
+  font-family: Roboto;
+  font-size: 25px; 
+}
+
+.contenedor_video {
+  text-align: center;
+}
+
+.video {
+  width: 75%;
+  height: 600px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.btn2 {
+  background-color: #ff6500;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 190px;
+  text-align: center;
+
+}
+
+.contenedor_btn2 {
+  text-align: center;
+  
+}
+
+.contenedor_btn2 p {
+  font-weight: bold;
+}
+
+.contenedor_marquee {
+  text-align: center;
+}
+
+.contenedor_logotelcel {
+  text-align: justify;
+  margin: auto;
+  background-color: #2463a9;
+  width: 1200px;
+  height: 110px;
+  padding: 10px 110px;
+}
+
+.contenedor_logotelcel img {
+  margin: auto;
+  height: 200px;
+  height: 90px;
+}
